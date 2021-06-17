@@ -35,14 +35,8 @@
    		</properties>
 	</rule>
 	
-	
-	
-	
-	<rule ref="category/java/codestyle.xml/AbstractNaming" />
 	<rule ref="category/java/codestyle.xml/AtLeastOneConstructor" />
 	<rule ref="category/java/codestyle.xml/AvoidDollarSigns" />
-	<rule ref="category/java/codestyle.xml/AvoidFinalLocalVariable" />
-	<rule ref="category/java/codestyle.xml/AvoidPrefixingMethodParameters" />
 	<rule ref="category/java/codestyle.xml/AvoidProtectedFieldInFinalClass" />
 	<rule ref="category/java/codestyle.xml/AvoidProtectedMethodInFinalClassNotExtending" />
 	<rule ref="category/java/codestyle.xml/AvoidUsingNativeCode" />
@@ -60,12 +54,9 @@
 	<rule ref="category/java/codestyle.xml/FieldDeclarationsShouldBeAtStartOfClass" />
 	<rule ref="category/java/codestyle.xml/FieldNamingConventions" />
 	<rule ref="category/java/codestyle.xml/ForLoopShouldBeWhileLoop" />
-	<rule ref="category/java/codestyle.xml/ForLoopsMustUseBraces" />
 	<rule ref="category/java/codestyle.xml/FormalParameterNamingConventions" />
 	<rule ref="category/java/codestyle.xml/GenericsNaming" />
 	<rule ref="category/java/codestyle.xml/IdenticalCatchBranches" />
-	<rule ref="category/java/codestyle.xml/IfElseStmtsMustUseBraces" />
-	<rule ref="category/java/codestyle.xml/IfStmtsMustUseBraces" />
 	<rule ref="category/java/codestyle.xml/LinguisticNaming" />
 	<rule ref="category/java/codestyle.xml/LocalHomeNamingConvention" />
 	<rule ref="category/java/codestyle.xml/LocalInterfaceSessionNamingConvention" />
@@ -75,7 +66,6 @@
 	<rule ref="category/java/codestyle.xml/MDBAndSessionBeanNamingConvention" />
 	<rule ref="category/java/codestyle.xml/MethodArgumentCouldBeFinal" />
 	<rule ref="category/java/codestyle.xml/MethodNamingConventions" />
-	<rule ref="category/java/codestyle.xml/MIsLeadingVariableName" />
 	<rule ref="category/java/codestyle.xml/NoPackage" />
 	<rule ref="category/java/codestyle.xml/OnlyOneReturn" />
 	<rule ref="category/java/codestyle.xml/PackageCase" />
@@ -85,7 +75,6 @@
 	<rule ref="category/java/codestyle.xml/ShortClassName" />
 	<rule ref="category/java/codestyle.xml/ShortMethodName" />
 	<rule ref="category/java/codestyle.xml/ShortVariable" />
-	<rule ref="category/java/codestyle.xml/SuspiciousConstantFieldName" />
 	<rule ref="category/java/codestyle.xml/TooManyStaticImports" />
 	<rule ref="category/java/codestyle.xml/UnnecessaryAnnotationValueElement" />
 	<rule ref="category/java/codestyle.xml/UnnecessaryCast" />
@@ -102,7 +91,6 @@
 	<rule ref="category/java/codestyle.xml/UseUnderscoresInNumericLiterals" />
 	<rule ref="category/java/codestyle.xml/VariableNamingConventions" />
 	<rule ref="category/java/codestyle.xml/WhileLoopsMustUseBraces" />
-	
 	
 </ruleset>
 

@@ -350,23 +350,11 @@
             <ruleset>Documentation</ruleset>
         </rule>
         <rule>
-            <name>AbstractNaming</name>
-            <ruleset>Code Style</ruleset>
-        </rule>
-        <rule>
             <name>AtLeastOneConstructor</name>
             <ruleset>Code Style</ruleset>
         </rule>
         <rule>
             <name>AvoidDollarSigns</name>
-            <ruleset>Code Style</ruleset>
-        </rule>
-        <rule>
-            <name>AvoidFinalLocalVariable</name>
-            <ruleset>Code Style</ruleset>
-        </rule>
-        <rule>
-            <name>AvoidPrefixingMethodParameters</name>
             <ruleset>Code Style</ruleset>
         </rule>
         <rule>
@@ -438,10 +426,6 @@
             <ruleset>Code Style</ruleset>
         </rule>
         <rule>
-            <name>ForLoopsMustUseBraces</name>
-            <ruleset>Code Style</ruleset>
-        </rule>
-        <rule>
             <name>FormalParameterNamingConventions</name>
             <ruleset>Code Style</ruleset>
         </rule>
@@ -451,14 +435,6 @@
         </rule>
         <rule>
             <name>IdenticalCatchBranches</name>
-            <ruleset>Code Style</ruleset>
-        </rule>
-        <rule>
-            <name>IfElseStmtsMustUseBraces</name>
-            <ruleset>Code Style</ruleset>
-        </rule>
-        <rule>
-            <name>IfStmtsMustUseBraces</name>
             <ruleset>Code Style</ruleset>
         </rule>
         <rule>
@@ -498,10 +474,6 @@
             <ruleset>Code Style</ruleset>
         </rule>
         <rule>
-            <name>MIsLeadingVariableName</name>
-            <ruleset>Code Style</ruleset>
-        </rule>
-        <rule>
             <name>NoPackage</name>
             <ruleset>Code Style</ruleset>
         </rule>
@@ -535,10 +507,6 @@
         </rule>
         <rule>
             <name>ShortVariable</name>
-            <ruleset>Code Style</ruleset>
-        </rule>
-        <rule>
-            <name>SuspiciousConstantFieldName</name>
             <ruleset>Code Style</ruleset>
         </rule>
         <rule>

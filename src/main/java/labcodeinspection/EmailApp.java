@@ -2,23 +2,36 @@ package labcodeinspection;
 
 import java.util.Scanner;
 
+/**
+*
+*
+* @author Sebastian Mendoza
+*/
 public class EmailApp {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+	
+	private EmailApp() {
+		
+	}
+	
+	/**
+	 * 
+	 * @param args
+	 */
+	public static void main(final String[] args) {
+		final Scanner scannerr = new Scanner(System.in);
 
 		System.out.print("Enter your first name: ");
-		String firstName = sc.nextLine();
+		final String firstName = scannerr.nextLine();
 
 		System.out.print("Enter your last name: ");
-		String lastName = sc.nextLine();
+		final String lastName = scannerr.nextLine();
 
 		System.out.print("\nDEPARTMENT CODE\n1. for sales\n2. for Development\n3. for accounting\nEnter code: ");
 
-		int depChoice = sc.nextInt();
-		sc.close();
+		final int depChoice = scannerr.nextInt();
+		scannerr.close();
 
-		Email email = new Email(firstName, lastName);
+		final Email email = new Email(firstName, lastName);
 		email.setDeparment(depChoice);
 		email.generateEmail();
 		email.showInfo();
